@@ -1,12 +1,12 @@
 # Self-Contained-Video-Entity-Discovery
 This is the official implementation and benchmark of the "Self-Contained Entity Discovery in Captioned Videos"  paper.
 
-# Video Entity Discovery Task Definition:
-![problem definition](/images/problem_definition.pdf)
+## Video Entity Discovery Task Definition:
+![problem definition](https://github.com/Melika-Ayoughi/Self-Contained-Video-Entity-Discovery/blob/master/images/problem_definition.pdf)
 
-# Method:
-![method.pdf](/images/method.pdf)
+## Method:
+![method](./images/method.pdf)
 
-# Some Qualitative Examples:
-![with_limsi.pdf](/images/with_limsi.pdf)
-![general_qualitative.pdf](/images/general_qualitative.pdf)
+## Some Qualitative Examples:
+![with limsi](./images/with_limsi.pdf)
+![general qualitative](./images/general_qualitative.pdf)
