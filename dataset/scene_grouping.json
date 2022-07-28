@@ -1,5 +1,5 @@
 mentions_hierarchy = {
-            'the kitchen': ['kitchen', 'the kitchen'],
+            "the kitchen": ["kitchen", "the kitchen"],
             "the hallway": ["the hallway", "the hall", "hallway", "The hall", "a hallway", "the secret hallway"],
             "the hospital": ["the hospital", "a hospital", "this hospital"],
             "the living room": ["the living room"],
