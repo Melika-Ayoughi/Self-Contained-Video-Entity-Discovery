@@ -15,7 +15,7 @@ First, mentions of named entities are extracted from textual descriptions and vi
 ![method](./images/method_2.png)
 
 ###### Stage 2: Inter-box entity agreement. 
-Second, we seek to improve the matching between visual entities from frames and named entities from textual descriptions by taking advantage of the visual similarities of box entities. This is done by over-clustering the visual embeddings and then using the alignments from the bipartite graphs of the previous stage to aggregate clusters into entity distributions. The most frequently occurring entity name is then selected as the new name for each box this is termed the {\em cleansed label}.
+Second, we seek to improve the matching between visual entities from frames and named entities from textual descriptions by taking advantage of the visual similarities of box entities. This is done by over-clustering the visual embeddings and then using the alignments from the bipartite graphs of the previous stage to aggregate clusters into entity distributions. The most frequently occurring entity name is then selected as the new name for each box this is termed the cleansed label.
 
 ###### Stage 3: Prototypical entity refinement.
 By aggregating the most-occurring entity name for each cluster, the most frequent entity name will be over-represented in the entity distribution. This aggregation biases the entity discovery towards most-frequent labels. As a third stage we address this bias by computing a per-entity prototype, followed by a refinement of the entity assignment for boxes of the most frequent prototype based on the minimal prototypical distance.
@@ -27,9 +27,29 @@ Further explanation will be added soon.
 ![with limsi](./images/qualitative.png)
 ![general qualitative](./images/general_qualitative.png)
 
+## Scene Entity Discovery:
+![scene entities](./images/scene.png) 
+
 ### Citation
 Please consider citing this work using this BibTex entry,
 
-```bibtex
+```
+@misc{https://doi.org/10.48550/arxiv.2208.06662,
+  doi = {10.48550/ARXIV.2208.06662},
+  
+  url = {https://arxiv.org/abs/2208.06662},
+  
+  author = {Ayoughi, Melika and Mettes, Pascal and Groth, Paul},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Self-Contained Entity Discovery from Captioned Videos},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
 
 ```
