@@ -12,7 +12,7 @@ We propose a three-stage approach to tackle this problem:
 ###### Stage 1: Bipartite entity-name alignment.
 First, mentions of named entities are extracted from textual descriptions and visual entity boxes from the corresponding frames. For each description-frame pair, a set of visual entity and named entity nodes are created and densely connected to form a collection of bipartite graphs, one graph for each description-frame pair, which provides initial cues about the entity names that correspond to boxes. However, this alignment is non-unique, incomplete, and noisy. The labels (i.e. names) assigned to each box after this stage are called {\em weak labels}.
 
-![method](./images/method.png)
+![method](./images/method_2.png)
 
 ###### Stage 2: Inter-box entity agreement. 
 Second, we seek to improve the matching between visual entities from frames and named entities from textual descriptions by taking advantage of the visual similarities of box entities. This is done by over-clustering the visual embeddings and then using the alignments from the bipartite graphs of the previous stage to aggregate clusters into entity distributions. The most frequently occurring entity name is then selected as the new name for each box this is termed the {\em cleansed label}.
