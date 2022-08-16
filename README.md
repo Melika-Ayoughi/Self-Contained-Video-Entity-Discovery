@@ -28,7 +28,7 @@ Further explanation will be added soon.
 ![general qualitative](./images/general_qualitative.png)
 
 ## Scene Entity Discovery:
-![scene entities](./images/scene.png) 
+![scene entities](./images/scenes.png) 
 
 ### Citation
 Please consider citing this work using this BibTex entry,
